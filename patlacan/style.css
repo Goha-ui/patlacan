@@ -1,0 +1,276 @@
+.cedo_tit {
+    font-size: 60px;
+    color: hsl(139, 81%, 31%);
+    font-weight: 400;
+    font-family: "Bebas Neue"
+
+}
+
+.cedo_text {
+    font-size: 32px;
+    color: hsl(236, 63%, 26%);
+    font-weight: 900;
+    margin-bottom: 20px;
+    font-family: "Montserrat"
+}
+
+.cedo_txt {
+    font-size: 20px;
+    color: hsl(236, 63%, 26%);
+    line-height: 1.6;
+}
+
+.highlight-green {
+    color: hsl(139, 81%, 31%);
+    font-weight: 700;
+    font-family: "Montserrat"
+}
+
+
+.content {
+    margin-left: 30px;
+}
+
+.content h2 {
+    color: #28a745;
+    font-weight: bold;
+    font-family: "Montserrat"
+}
+
+.content p {
+    line-height: 1.6;
+    color: #333;
+}
+
+.highlight-green {
+    color: #28a745;
+    font-weight: bold;
+    font-family: "Montserrat"
+}
+
+.highlight {
+    font-weight: bold;
+    color: #0033a0;
+    font-family: "Montserrat"
+}
+
+.highlight-yellow {
+    color: #f0ad4e;
+    font-family: "Montserrat"
+}
+
+.block{
+    text-align: center;
+}
+
+.business-section {
+    margin: 50px auto;
+    padding: 20px;
+}
+
+.business-section p {
+    font-size: 18px;
+    line-height: 1.8;
+    color: #404096;
+}
+
+.business-section p strong {
+    color: #2BA84A;
+}
+.sustainability {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.sustainability a {
+    text-decoration: underline;
+}
+
+.sustainability a:hover {
+    text-decoration: none;
+}
+
+.sustainability h1 {
+    margin-bottom: 40px;
+}
+
+.sustainability h2 {
+    margin-bottom: 20px;
+}
+
+.sustainability p {
+    margin-bottom: 10px;
+}
+
+.sustainability figure,
+.sustainability svg {
+    max-width: 100%;
+}
+
+.sustainability h2 {}
+
+.sustainability .row:after {
+    clear: both;
+    content: '';
+    display: block;
+}
+
+.sustainability .row {
+    margin: 0 -20px;
+}
+
+.sustainability .col-md-6 {
+    padding: 0 20px;
+    width: 50%;
+    box-sizing: border-box;
+    float: left;
+}
+
+.sustainability .people {}
+
+.sustainability .people figure {}
+
+.sustainability .people figure {
+    padding-left: 20px;
+
+}
+
+.sustainability .people figure>div {
+    max-width: 50%;
+    margin-left: -20px;
+    float: left;
+}
+
+.sustainability .flex {
+    display: flex;
+}
+
+.sustainability .columns {
+    gap: clamp(1.31rem, calc(1.25rem + 0.29vw), 1.5rem);
+    justify-content: center;
+}
+
+.sustainability .columns .card {
+    max-width: 300px;
+}
+
+.sustainability .card {
+    flex-basis: 25%;
+    flex-grow: 1;
+    height: 370px;
+    margin: 1em;
+    min-width: 300px;
+    perspective: 1500px;
+}
+
+.sustainability .flip .more {
+    display: none;
+}
+
+.sustainability .flip .content {
+    height: 100%;
+    position: relative;
+    transform-style: preserve-3d;
+    transition: transform .8s cubic-bezier(.75, 0, .85, 1);
+    width: 100%;
+}
+
+.sustainability .ta-c {
+    text-align: center;
+}
+
+.sustainability .flip .back,
+.sustainability .flip .front {
+    backface-visibility: hidden;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    transform-style: preserve-3d;
+    width: 100%;
+}
+
+.sustainability .card .front {
+    background-position: 50%;
+    background-size: cover;
+    background: #fff;
+    border: 2px solid #646464;
+}
+
+.sustainability .card .back,
+.card .front {
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: clamp(1.31rem, calc(1.25rem + 0.29vw), 1.5rem);
+}
+
+.sustainability .flip .back {
+    transform: rotateY(180deg);
+}
+
+.sustainability .flip .more:checked~.content {
+    transform: rotateY(180deg);
+}
+
+.sustainability .flip .content {
+    height: 100%;
+    position: relative;
+    transform-style: preserve-3d;
+    transition: transform .8s cubic-bezier(.75, 0, .85, 1);
+    width: 100%;
+}
+
+.sustainability .flip.card .front {
+    font-size: 16px;
+}
+
+.sustainability .flip.card .back {
+    background: #0f8e37;
+    color: #fff;
+    font-size: 15px;
+}
+
+.sustainability .button {
+    border: 2px solid #0f8e37;
+    border-radius: 100px;
+    color: #0f8e37;
+    padding: clamp(0.69rem, calc(0.67rem + 0.1vw), 0.75rem) clamp(1.75rem, calc(1.67rem + 0.39vw), 2rem);
+    transition: background-color .3s;
+    cursor: pointer;
+}
+
+.sustainability .button:hover {
+    background-color: #0f8e37;
+    color: #fff;
+}
+
+
+.sustainability .card .back .button {
+    border-color: #fff;
+    color: #fff;
+}
+
+.sustainability h2.title {
+    padding-top: 40px;
+}
+
+.sustainability .grid-logos {
+    display: grid;
+    gap: 2vw !important;
+    grid-template-columns: repeat(auto-fit, 130px);
+    margin: 20px auto;
+    overflow: hidden;
+}
+
+@media (max-width: 768px) {
+    .sustainability .col-md-6 {
+        float: none;
+        width: 100%;
+    }
+
+    .sustainability .flex {
+        display: block;
+    }
+}
